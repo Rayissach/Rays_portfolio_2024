@@ -6,10 +6,10 @@ export const Nav = () => {
         <nav className='bg-gray-800'>
             <div>
                 <div className='items-stretch'>
-                    <div className='size-20'>
-                        <img alt='logo' src={logo} />
+                    <div className='size-20 bg-gray-800 rflex flex-1'>
+                        <img alt='logo' className='bg-gray-800' src={logo} />
                     </div>
-                    <ul className='list-none'>
+                    <ul className='list-none flex space-x-4'>
                         <li>Home</li>
                         <li>About</li>
                         <li>Portfolio</li>
