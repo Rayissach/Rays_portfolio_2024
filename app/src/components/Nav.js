@@ -8,7 +8,7 @@ export const Nav = () => {
                 <div className='logo'>
                     <img src={logo} alt='Rays Logo' className='h-12'/>
                 </div>
-                <div className='border-2 flex-grow flex justify-center'>
+                <div className='border-2 border-slate-500 flex-grow flex justify-center rounded-full bg-transparent'>
                     <ul className='flex items-center space-x-8 py-3'>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
