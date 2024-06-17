@@ -614,9 +614,45 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-px {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .background-gif {
@@ -624,4 +660,28 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHhqbTA1dGQ4OWl5MXR1cjIzbHJ1ejZsMjZ5d3Yzd2o5bmltZGFxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.webp');
+}
+
+.hover\:px-0:hover {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hover\:py-0:hover {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.hover\:text-lg:hover {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.hover\:text-base:hover {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
