@@ -1,6 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 export const Home = () => {
+
+    useEffect = (() => {
+
+    },[])
+
     return (
         <div className='background-gif flex items-center justify-center max-h-screen h-screen'>
             <div className='text-slate-300 place-content-center'>
