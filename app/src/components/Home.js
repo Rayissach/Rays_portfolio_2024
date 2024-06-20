@@ -1,10 +1,6 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 export const Home = () => {
-
-    useEffect = (() => {
-
-    },[])
 
     return (
         <div className='background-gif flex items-center justify-center max-h-screen h-screen'>
