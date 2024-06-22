@@ -8,7 +8,7 @@ export const BackgroundSwitch = ({visible, onClose}) => {
         if (visible) {
             const timer = setTimeout(() => {
                 onClose()
-            }, 6000)
+            }, 3000)
             return () => clearTimeout(timer)
         }
     },[visible, onClose]);

@@ -1,5 +1,6 @@
 import './App.css';
 import React, {useEffect, useState} from 'react'
+import { Contact } from './components/Contact'
 import { Nav } from './components/Nav' 
 import { Home } from './components/Home'
 import { BackgroundSwitch } from './components/BackgroundSwitch';
@@ -16,6 +17,7 @@ function App() {
       <BackgroundSwitch visible={loading} onClose={() => setLoading(false)} />
       <Nav />
       <Home />
+      <Contact />
     </div>
   );
 }
